@@ -1,1 +1,182 @@
+/* Resetting basic margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2C3E50;
+  color: white;
+}
+
+/* General Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;  /* Adjust padding if needed */
+}
+
+/* Navbar Styles */
+nav {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between logo and nav items */
+  align-items: center; /* Vertically center the content */
+}
+
+/* Logo Styling (for image) */
+header .logo {
+  height: 40px; /* Adjust the height of the logo image */
+  width: auto;  /* Let the width adjust based on the height */
+}
+
+/* Navbar Links Styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Align navbar links horizontally */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ddab9a;
+}
+
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #963a2f, #ecb984);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero .cta-btn {
+  padding: 10px 30px;
+  background-color: #ecf0f1;
+  color: #2C3E50;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.hero .cta-btn:hover {
+  background-color: #3498db;
+}
+
+/* Services section */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.service-item {
+  background-color: #ecf0f1;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  font-size: 16px;
+}
+
+/* Add this new code at the end of your CSS */
+.service-item a {
+  text-decoration: none; /* Removes underline */
+  color: #a3b18a; /* Change to your desired color */
+}
+
+.service-item a:hover {
+  color: #588157; /* Darker color on hover */
+}
+
+/* Footer section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
