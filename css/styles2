@@ -1,0 +1,135 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+  }
+  
+  /* General Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;  /* Adjust padding if needed */
+  }
+  
+  /* Navbar Styles */
+  nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  /* Logo Styling (for image) */
+  header .logo {
+    height: 40px; /* Adjust the height of the logo image */
+    width: auto;  /* Let the width adjust based on the height */
+  }
+  
+  /* Navbar Links Styling */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align navbar links horizontally */
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #ddab9a;
+  }
+  
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+/* Hero section styling */
+.hero {
+    background-image: url('../images/mountains.jpg'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* Brand name styling */
+.brand-name {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* Tagline styling */
+.tagline {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* Shop link styling */
+.shop-link {
+    position: absolute;
+    bottom: 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    opacity: 0.8;
+}
+
+.shop-link:hover {
+    opacity: 1;
+}
