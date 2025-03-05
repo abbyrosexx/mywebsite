@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Awesome Websites</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <img src="images/disco-ball.png" alt="Cute Disco Ball" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="this is a tab.html">Cool Sites</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>My Fav Websites</h1>
+      <p>Creative, inspiring, user friendly.</p>
+      <a href="#services" class="cta-btn">Back to Home</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>The Cool Websites are Below!</h2>
+    
+    <div class="service-item">
+      <a href="https://www.saapro.ae/" target="_blank">
+        <h3>Saapro.ae</h3>
+      </a>
+      <p>Waste disposal and resource recovery.</p>
+    </div>
+    
+    <div class="service-item">
+      <a href="https://joyce630.github.io/BizarreTourtoItaly/BizarreTourtoItaly_Index.html" target="_blank">
+        <h3>Bizarre Tour to Italy</h3>
+      </a>
+      <p>A collection of travel destinations based on Golden Wind.</p>
+    </div>
+    
+    <div class="service-item">
+      <a href="https://www.bonappetit.com/" target="_blank">
+        <h3>Bon Appétit</h3>
+      </a>
+      <p>Recipes, cooking advice, and food-related articles.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Abby's Rose's Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
